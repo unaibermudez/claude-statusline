@@ -1,4 +1,4 @@
-# claude-statusbar
+# claude-statusline
 
 Mi status line para [Claude Code](https://claude.com/claude-code): carpeta y rama,
 modelo, y uso de contexto y de los límites de 5 horas / 7 días con barras de progreso.
@@ -40,23 +40,23 @@ Cada bloque desaparece solo si Claude Code no envía ese dato.
 Clona y ejecuta el instalador que corresponda:
 
 ```bash
-git clone https://github.com/USUARIO/claude-statusbar.git
-cd claude-statusbar
+git clone https://github.com/unaibermudez/claude-statusline.git
+cd claude-statusline
 ./install.sh          # Linux / macOS / Git Bash
 ```
 
 ```powershell
-git clone https://github.com/USUARIO/claude-statusbar.git
-cd claude-statusbar
+git clone https://github.com/unaibermudez/claude-statusline.git
+cd claude-statusline
 powershell -ExecutionPolicy Bypass -File .\install.ps1    # Windows
 ```
 
 O en un solo comando (bash), sin dejar el clon:
 
 ```bash
-git clone --depth 1 https://github.com/USUARIO/claude-statusbar.git /tmp/claude-statusbar \
-  && /tmp/claude-statusbar/install.sh \
-  && rm -rf /tmp/claude-statusbar
+git clone --depth 1 https://github.com/unaibermudez/claude-statusline.git /tmp/claude-statusline \
+  && /tmp/claude-statusline/install.sh \
+  && rm -rf /tmp/claude-statusline
 ```
 
 El instalador:
