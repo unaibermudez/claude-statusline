@@ -18,7 +18,7 @@ Copy-Item (Join-Path $srcDir 'statusline.sh') $target -Force
 Write-Host "OK  script copiado -> $target"
 
 # Ruta con barras normales: Claude Code lanza el comando a traves de cmd.exe.
-$slPath  = $target -replace '\', '/'
+$slPath  = $target -replace '\\', '/'
 $command = "bash `"$slPath`""
 
 if (Test-Path $settings) {
